@@ -1,3 +1,4 @@
+
 document.querySelectorAll("input[type=checkbox]").forEach(element => {
   
   const checked = localStorage.getItem(element.name);
